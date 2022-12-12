@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>&lt;no title&gt; &#8212; Data Mining</title>
+    <title>Best Accuracy Between Normalization vs Unnomarlization (Tugas 8) &#8212; Data Mining</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -52,7 +52,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="&lt;no title&gt;" href="Tugas-7.html" />
+    <link rel="prev" title="Implementasi Naive Bayes Studi Kasus Peminjaman Uang (Tugas 7)" href="Tugas-7.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -139,7 +139,7 @@ const thebe_selector_output = ".output, .cell_output"
   Tugas
  </span>
 </p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="Tugas-1.html">
    Dissimilarity (Tugas 1)
@@ -168,6 +168,21 @@ const thebe_selector_output = ".output, .cell_output"
  <li class="toctree-l1">
   <a class="reference internal" href="uts_pendat.html">
    UTS Penambangan Data
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Tugas-6.html">
+   Tugas 6 (Decission Tree)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Tugas-7.html">
+   Implementasi Naive Bayes Studi Kasus Peminjaman Uang (Tugas 7)
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Best Accuracy Between Normalization vs Unnomarlization (Tugas 8)
   </a>
  </li>
 </ul>
@@ -372,50 +387,23 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
-<label for="__page-toc"
-  class="headerbtn headerbtn-page-toc"
-  
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-list"></i>
-  </span>
-
-</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
-    <div class="tocsection onthispage pt-5 pb-3">
-        <i class="fas fa-list"></i> Contents
-    </div>
-    <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="simple visible nav section-nav flex-column">
-</ul>
-
-    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1><no title></h1>
+                <h1>Best Accuracy Between Normalization vs Unnomarlization (Tugas 8)</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="simple visible nav section-nav flex-column">
-</ul>
-
-                        </nav>
                     </div>
                 </div>
             </div>
@@ -423,7 +411,8 @@ title="Print to PDF"
                 
               <div>
                 
-  <p>#Best Accuracy Between Normalization vs Unnomarlization (Tugas 8)#</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="best-accuracy-between-normalization-vs-unnomarlization-tugas-8">
+<h1>Best Accuracy Between Normalization vs Unnomarlization (Tugas 8)<a class="headerlink" href="#best-accuracy-between-normalization-vs-unnomarlization-tugas-8" title="Permalink to this headline">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">### Data Wrangling </span>
@@ -515,7 +504,7 @@ title="Print to PDF"
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-086712de-42c3-4994-82e3-978f4c47e616">
+  <div id="df-ff66451a-4e09-4f1e-ab08-9dc2f8ad89a7">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -815,7 +804,7 @@ title="Print to PDF"
 </table>
 <p>1151 rows × 20 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-086712de-42c3-4994-82e3-978f4c47e616')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-ff66451a-4e09-4f1e-ab08-9dc2f8ad89a7')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -866,12 +855,12 @@ title="Print to PDF"
 
       <script>
         const buttonEl =
-          document.querySelector('#df-086712de-42c3-4994-82e3-978f4c47e616 button.colab-df-convert');
+          document.querySelector('#df-ff66451a-4e09-4f1e-ab08-9dc2f8ad89a7 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-086712de-42c3-4994-82e3-978f4c47e616');
+          const element = document.querySelector('#df-ff66451a-4e09-4f1e-ab08-9dc2f8ad89a7');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -1408,6 +1397,7 @@ title="Print to PDF"
 </div>
 </div>
 </div>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -1440,7 +1430,7 @@ title="Print to PDF"
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">&lt;no title&gt;</p>
+            <p class="prev-next-title">Implementasi Naive Bayes Studi Kasus Peminjaman Uang (Tugas 7)</p>
         </div>
     </a>
 </div>
